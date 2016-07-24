@@ -1,0 +1,83 @@
+		body{
+			width:900px;
+			margin: 30px auto;
+			font-family: "Times New Roman", Times, serif;
+			font-size:14px;
+			font-weight:normal;
+			color:#000; 
+		}
+		.container{
+			width:500px;
+			margin: 0 auto;	
+			background-color: #4574A2;
+			background: url("back.jpeg") repeat top;	
+			padding: 5px 15px;
+			
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		section div{
+			padding: 10px;
+			background-color: #315285;
+			margin-bottom: 8px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		section h3{
+			color:#fff;
+		}
+		section div label{
+			display: inline-block;
+			width:100px;
+		}
+
+
+		section div input, section div textarea{
+			padding: 6px;
+			width:300px;
+			border:none;
+			outline: none;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+			vertical-align: middle;
+		}
+		
+		.button {
+			text-align: center;
+			margin: 20px;
+
+		}
+		.button button{
+			padding: 8px;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			border:none;
+			background-color: #011631;
+			width:80px;	
+			color:#fff;
+			text-transform: uppercase;
+		}
+		.radiolist {
+			padding:0;
+		}
+		.radiolist p{	
+			display: inline-block;
+			margin: 0 20px 0 0;
+			padding:0;
+		}
+		.radiolist p input[type = "radio"]{
+			display: inline-block;
+			width: auto;
+			vertical-align: middle;
+			margin-right: 5px;
+		}
+		.radiolist img{
+			vertical-align: middle;
+		}
+		.radiolist span{
+			font-size: 12px;
+		}

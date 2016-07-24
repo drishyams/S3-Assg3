@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title>HTML Form</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="">
+			<section>
+				<h3>Step 1: Your Details</h3>
+				<div>
+					<label for="name">Name</label>
+					<input type="text" placeholder="First and last name">
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="email" placeholder="example@domain.com">
+				</div>
+				<div>
+					<label for="phone">Phone</label>
+					<input type="text" placeholder="e.g. +44750000000">
+				</div>
+			</section>
+			
+			<section>
+				<h3>Step 2: Delivery Address</h3>
+				<div style="vertical-align:middle;">
+					<label for="address">Address</label>
+					<textarea id="address" cols="10" rows="10"></textarea>
+				</div>
+				<div>
+					<label for="postcode">Post Code</label>
+					<input type="text" id="postcode" >
+				</div>
+				<div>
+					<label for="country">Country</label>
+					<input type="text" id="country" >
+				</div>
+			</section>	
+			<section>
+				<h3>Step 3: Card Details</h3>
+				<div>
+					<label for="card">Card Type</label>
+					<div class="radiolist">
+						<p>
+							<input type="radio" class="inline" name="pay" value="visa">
+							<img src="amex.png">
+							<span>VISA</span>
+						</p>	
+						<p>
+							<input type="radio" class="inline" name="pay" value="visa">
+							<img src="amex.png">
+							<span>AmeX</span>
+						</p>	
+						<p>
+							<input type="radio" class="inline" name="pay" value="visa">
+							<img src="amex.png">
+							<span>Mastercard</span>
+						</p>	
+					</div>
+				</div>
+				<div>
+					<label for="num">Card Number</label>
+					<input type="email" id="num" >
+					
+				</div>
+				<div>
+					<label for="code">Security Code</label>
+					<input type="text" id="code">
+				</div>
+				<div>
+					<label for="code">Name on Card</label>
+					<input type="text" id="code" placeholder="exact name as on the card">
+				</div>
+			</section>	
+			<div class="button"><button >Buy it</button></div>
+		</form>
+	</div>
+</body>
+</html>
